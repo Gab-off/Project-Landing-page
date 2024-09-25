@@ -128,3 +128,25 @@ body {
     text-align: center;
     margin-top: 5px;
 }
+
+.citation-banner-container {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.citation-banner-container h2 {
+    font-size: 36px;
+    font-weight: lighter;  
+    font-style: italic;
+    color: #1f2937;
+}
+
+.citation-banner-container .container {
+    padding: 100px 110px;
+}
+
+.citation-banner-container p {
+    text-align: end;
+    padding-right: 50px;
+}
