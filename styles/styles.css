@@ -107,9 +107,9 @@ body {
 
 .grid-image {
     display: flex;
-    gap: 20px;
+
     width: 1000px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .image {
@@ -143,10 +143,32 @@ body {
 }
 
 .citation-banner-container .container {
-    padding: 100px 110px;
+    padding: 100px 100px;
 }
 
 .citation-banner-container p {
     text-align: end;
     padding-right: 50px;
+}
+
+.blue-card-banner-container {
+    display: flex;
+    justify-content: center;
+}
+
+.blue-card-banner-container .container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    margin: 80px 0;
+    border-radius: 5px;
+}
+
+.blue-card-banner-container .signup-button {
+    border: 2px solid #E5E7EB;
+}
+
+.blue-card-text {
+    color: #E5E7EB;
 }
