@@ -1,6 +1,44 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+    font-family: Roboto;
+}
+
+/* Delimitando o container das estruturas */
+.container {
+    width: 900px;
+}
+
+.header-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.header-container .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container .header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-container nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header-container nav a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
